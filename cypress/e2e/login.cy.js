@@ -7,6 +7,9 @@ const createAcc = new MagentoCreateAcc()
 const login = new LoginPage()
 
 describe("User Authentication", () => {
+  before(() => {
+    cy.viewport(1000, 606)
+  })
   beforeEach(() => {
     cy.visit("/customer/account/login")
   })

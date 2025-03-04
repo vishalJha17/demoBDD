@@ -1,0 +1,8 @@
+node_modules
+cypress/screenshots
+cypress/videos
+cypress/downloads
+cypress/support/screenshots
+cypress/support/videos
+cypress/support/downloads
+cypress/reports
