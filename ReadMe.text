@@ -1,0 +1,14 @@
+installing all dependency
+run below command in terminal 
+npm i 
+npx run cypress (for headless testing )
+npx cypress run --cypress\e2e\*.cy.js 
+
+-------------------------------------------------
+cypress>support>helper -- this has generic methods 
+cypress>support >page -- this follows pom 
+cypress>e2e -- this has some test examples 
+cypress>fixture -- this has test data files 
+
+cypress.config.js -- this has configuration file 
+package.json -- this has run scripts and dependecy 
